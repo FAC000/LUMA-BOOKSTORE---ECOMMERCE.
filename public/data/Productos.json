@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "genero": "fantasia",
+        "titulo": "El nombre del viento",
+        "autor": "Patrick Rothfuss",
+        "precio": 18999,
+        "stock": 12,
+        "categoria": "fantasia",
+        "descripcion": "La historia de Kvothe, un joven con un talento excepcional para la magia y la música. Criado en una troupe de artistas itinerantes, Kvothe descubre desde niño el poder de las historias y la música. Después de una tragedia que destroza su familia, debe sobrevivir en las calles, aprender a valerse por sí mismo y, finalmente, ingresar en la Universidad, un lugar donde el conocimiento y la magia se entrelazan. Allí se enfrenta a rivalidades, pobreza, estudios rigurosos y a los misterios que rodean a los Chandrian, figuras envueltas en leyenda. Rothfuss combina poesía, acción y reflexión en un mundo cuidadosamente construido, donde la magia tiene reglas y la música es lenguaje y poder. La novela explora la formación de un mito: cómo los hechos, el talento y las decisiones forjan a un personaje que, con el tiempo, se convierte en leyenda.",
+        "imagen": "nombreviento.webp"
+    },
+    {
+        "id": 2,
+        "genero": "cienciaficcion",
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "precio": 12999,
+        "stock": 20,
+        "categoria": "ficcion",
+        "descripcion": "Una novela distópica que denuncia los peligros del totalitarismo. Ambientada en un Estado donde el Gran Hermano vigila cada aspecto de la vida, la historia sigue a Winston Smith, un funcionario encargado de reescribir la historia para que coincida con la propaganda del Partido. A medida que Winston toma conciencia de la manipulación y la falsificación de la verdad, comienza a cuestionar el sistema y a buscar formas de rebelión. Orwell construye un mundo opresivo donde el lenguaje, la memoria y la privacidad son herramientas de control, y donde la libertad se convierte en un acto peligroso. La novela es una advertencia sobre la concentración del poder, la vigilancia masiva y la erosión de la verdad.",
+        "imagen": "1984.webp"
+    },
+    {
+        "id": 3,
+        "genero": "fantasia",
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor": "J.K. Rowling",
+        "precio": 15999,
+        "stock": 18,
+        "categoria": "fantasia",
+        "descripcion": "El inicio de la saga del joven mago más famoso del mundo. Harry Potter, un niño huérfano que vive con sus tíos, descubre en su undécimo cumpleaños que es un mago y que ha sido aceptado en Hogwarts, la escuela de magia. Allí encuentra amigos, enemigos y un lugar donde por primera vez pertenece. Mientras aprende hechizos y enfrenta desafíos escolares, se topa con la existencia de la Piedra Filosofal, un objeto rodeado de misterios y peligros. La novela combina aventura, humor y un sentido del asombro que ha conquistado a lectores de todas las edades, al presentar un universo mágico coherente y lleno de detalles encantadores.",
+        "imagen": "hppiedrafilosofal.webp"
+    },
+    {
+        "id": 4,
+        "genero": "romantico",
+        "titulo": "El Principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "precio": 8999,
+        "stock": 25,
+        "categoria": "clasicos",
+        "descripcion": "Un cuento poético que reflexiona sobre la vida, la amistad y los sueños. A través del encuentro entre un aviador perdido en el desierto y un niño venido de otro planeta, la obra despliega pequeñas parábolas cargadas de ternura y profundidad. El Principito narra sus viajes por distintos asteroides y las lecciones que extrae de cada personaje extraño que encuentra: el rey, el vanidoso, el bebedor, el farolero y el hombre de negocios. Estas figuras y sus diálogos llevan al lector a reflexionar sobre lo esencial, la mirada adulta frente a la infantil, el amor y la soledad. Es una fábula universal que habla al corazón.",
+        "imagen": "elprincipito.webp"
+    },
+    {
+        "id": 5,
+        "genero": "historica",
+        "titulo": "Sapiens: De animales a dioses",
+        "autor": "Yuval Noah Harari",
+        "precio": 21999,
+        "stock": 10,
+        "categoria": "historia",
+        "descripcion": "Un recorrido por la historia de la humanidad y cómo llegamos a dominar el mundo. Harari explica, con lenguaje accesible y ejemplos contundentes, cómo el Homo sapiens pasó de ser un homínido más a convertirse en la especie dominante gracias a capacidades como el lenguaje, la cooperación y las historias compartidas. El libro aborda revoluciones clave —cognitiva, agrícola e industrial— y discute sus efectos en la sociedad, la economía y la ecología. A la vez que ofrece datos y síntesis históricas, plantea preguntas sobre el futuro de la humanidad y las implicancias éticas de los avances tecnológicos.",
+        "imagen": "sapiens.webp"
+    },
+    {
+        "id": 6,
+        "genero": "misterio",
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "precio": 16999,
+        "stock": 14,
+        "categoria": "realismo-magico",
+        "descripcion": "La historia de la familia Buendía en el mítico pueblo de Macondo. A lo largo de varias generaciones, García Márquez entrelaza relatos de amor, violencia, maravillas y desastres, construyendo una cronología donde los hechos cotidianos conviven con lo fantástico. La narrativa recorre nacimientos, muertes, amores imposibles y repeticiones del destino que marcan a cada miembro de la familia. Con un lenguaje lírico y abundantes imágenes simbólicas, la novela explora la memoria, el poder, la soledad y la repetición histórica. Es una obra central del realismo mágico y una lectura que desborda imaginación y profundidad humana.",
+        "imagen": "cienanos.webp"
+    },
+    {
+        "id": 7,
+        "genero": "fantasia",
+        "titulo": "El nombre del viento",
+        "autor": "Patrick Rothfuss",
+        "precio": 18999,
+        "stock": 12,
+        "categoria": "fantasia",
+        "descripcion": "La historia de Kvothe, un joven con un talento excepcional para la magia y la música. Criado en una troupe de artistas itinerantes, Kvothe descubre desde niño el poder de las historias y la música. Después de una tragedia que destroza su familia, debe sobrevivir en las calles, aprender a valerse por sí mismo y, finalmente, ingresar en la Universidad, un lugar donde el conocimiento y la magia se entrelazan. Allí se enfrenta a rivalidades, pobreza, estudios rigurosos y a los misterios que rodean a los Chandrian, figuras envueltas en leyenda. Rothfuss combina poesía, acción y reflexión en un mundo cuidadosamente construido, donde la magia tiene reglas y la música es lenguaje y poder. La novela explora la formación de un mito: cómo los hechos, el talento y las decisiones forjan a un personaje que, con el tiempo, se convierte en leyenda.",
+        "imagen": "nombreviento.webp"
+    },
+    {
+        "id": 8,
+        "genero": "cienciaficcion",
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "precio": 12999,
+        "stock": 20,
+        "categoria": "ficcion",
+        "descripcion": "Una novela distópica que denuncia los peligros del totalitarismo. Ambientada en un Estado donde el Gran Hermano vigila cada aspecto de la vida, la historia sigue a Winston Smith, un funcionario encargado de reescribir la historia para que coincida con la propaganda del Partido. A medida que Winston toma conciencia de la manipulación y la falsificación de la verdad, comienza a cuestionar el sistema y a buscar formas de rebelión. Orwell construye un mundo opresivo donde el lenguaje, la memoria y la privacidad son herramientas de control, y donde la libertad se convierte en un acto peligroso. La novela es una advertencia sobre la concentración del poder, la vigilancia masiva y la erosión de la verdad.",
+        "imagen": "1984.webp"
+    },
+    {
+        "id": 9,
+        "genero": "fantasia",
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor": "J.K. Rowling",
+        "precio": 15999,
+        "stock": 18,
+        "categoria": "fantasia",
+        "descripcion": "El inicio de la saga del joven mago más famoso del mundo. Harry Potter, un niño huérfano que vive con sus tíos, descubre en su undécimo cumpleaños que es un mago y que ha sido aceptado en Hogwarts, la escuela de magia. Allí encuentra amigos, enemigos y un lugar donde por primera vez pertenece. Mientras aprende hechizos y enfrenta desafíos escolares, se topa con la existencia de la Piedra Filosofal, un objeto rodeado de misterios y peligros. La novela combina aventura, humor y un sentido del asombro que ha conquistado a lectores de todas las edades, al presentar un universo mágico coherente y lleno de detalles encantadores.",
+        "imagen": "hppiedrafilosofal.webp"
+    },
+    {
+        "id": 10,
+        "genero": "romantico",
+        "titulo": "El Principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "precio": 8999,
+        "stock": 25,
+        "categoria": "clasicos",
+        "descripcion": "Un cuento poético que reflexiona sobre la vida, la amistad y los sueños. A través del encuentro entre un aviador perdido en el desierto y un niño venido de otro planeta, la obra despliega pequeñas parábolas cargadas de ternura y profundidad. El Principito narra sus viajes por distintos asteroides y las lecciones que extrae de cada personaje extraño que encuentra: el rey, el vanidoso, el bebedor, el farolero y el hombre de negocios. Estas figuras y sus diálogos llevan al lector a reflexionar sobre lo esencial, la mirada adulta frente a la infantil, el amor y la soledad. Es una fábula universal que habla al corazón.",
+        "imagen": "elprincipito.webp"
+    },
+    {
+        "id": 11,
+        "genero": "historica",
+        "titulo": "Sapiens: De animales a dioses",
+        "autor": "Yuval Noah Harari",
+        "precio": 21999,
+        "stock": 10,
+        "categoria": "historia",
+        "descripcion": "Un recorrido por la historia de la humanidad y cómo llegamos a dominar el mundo. Harari explica, con lenguaje accesible y ejemplos contundentes, cómo el Homo sapiens pasó de ser un homínido más a convertirse en la especie dominante gracias a capacidades como el lenguaje, la cooperación y las historias compartidas. El libro aborda revoluciones clave —cognitiva, agrícola e industrial— y discute sus efectos en la sociedad, la economía y la ecología. A la vez que ofrece datos y síntesis históricas, plantea preguntas sobre el futuro de la humanidad y las implicancias éticas de los avances tecnológicos.",
+        "imagen": "sapiens.webp"
+    },
+    {
+        "id": 12,
+        "genero": "misterio",
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "precio": 16999,
+        "stock": 14,
+        "categoria": "realismo-magico",
+        "descripcion": "La novela narra la historia de la familia Buendía a través de varias generaciones en el mítico pueblo de Macondo. Con un estilo lleno de magia y simbolismo, García Márquez presenta amores imposibles, milagros, tragedias y sucesos extraordinarios que se entrelazan con la vida cotidiana. La obra explora temas como la soledad, el destino y la repetición de la historia familiar. Es uno de los pilares del realismo mágico y una lectura inolvidable por su riqueza narrativa.",
+        "imagen": "cienanos.webp"
+    }
+]

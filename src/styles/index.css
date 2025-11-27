@@ -1,0 +1,70 @@
+:root {
+  --text-primary: #272838ff;
+  --accent-soft: #f3de8aff;
+  --cta: #eb9486ff;
+  --text-secondary: #7e7f9aff;
+  --bg-light: #f9f8f8ff;
+}
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: var(--bg-light);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: var(--accent-soft) !important;
+  width: 100%;
+  height: 180px;
+}
+
+
+.imgLogo {
+  width: 200px;
+  height: 180px;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: var(--text-secondary);
+  font-family: 'Montserrat';
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.dropdown-menu {
+  display: flex !important;
+  background-color: var(--accent-soft) !important;
+  border: 0px solid;
+  --bs-dropdown-link-active-bg: var(--accent-soft);
+  --bs-dropdown-link-hover-bg:  var(--accent-soft); 
+}
+
+.dropdown-item {
+  color: var(--text-secondary);
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bi-cart {
+  font-size: 25px;
+  color: var(--text-secondary);
+}
+
+.carritoCantidad {
+  color: var(--text-secondary);
+
+}
