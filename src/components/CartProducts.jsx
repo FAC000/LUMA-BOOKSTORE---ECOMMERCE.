@@ -3,11 +3,13 @@ import { BarraEnvio } from "./BarraEnvio";
 import { Link } from "react-router-dom";
 
 
-
-
-export function CartProducts({ setModal }) {
+export function CartProducts({ setModal, setMod }) {
     const { carrito, deleteProduct, addCarrito, precioTotal } = useCarritoContext();
 
+    function FinalizarCompra() {
+        setMod(true)
+        setModal(false)
+    }
 
     return (
         <>
@@ -59,7 +61,7 @@ export function CartProducts({ setModal }) {
                             <BarraEnvio />
                         </div>
                         <div className="endBuy">
-                            <button>Finalizar Compra</button>
+                            <button onClick={FinalizarCompra}>Finalizar Compra</button>
                         </div>
                     </div >
                 )

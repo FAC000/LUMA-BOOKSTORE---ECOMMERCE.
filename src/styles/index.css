@@ -6,57 +6,75 @@
   --bg-light: #f9f8f8ff;
 }
 
-
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   background-color: var(--bg-light);
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* NAVBAR */
-
 .navbar {
   background-color: var(--accent-soft) !important;
   width: 100%;
   height: 180px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
-
 
 .imgLogo {
   width: 200px;
-  height: 180px;
+  height: 80px;
+  margin-right: 10px;
 }
 
-.nav-link {
+.bi-caret-down-fill {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.nav-link,
+.dropdown-title {
   font-size: 20px;
-  color: var(--text-secondary);
   font-family: 'Montserrat';
   font-weight: 600;
   letter-spacing: 1px;
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link{
+  margin-right: 30PX;
 }
 
 .dropdown-menu {
   display: flex !important;
   background-color: var(--accent-soft) !important;
-  border: 0px solid;
-  --bs-dropdown-link-active-bg: var(--accent-soft);
-  --bs-dropdown-link-hover-bg:  var(--accent-soft); 
+  border: none;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dropdown-item {
   color: var(--text-secondary);
+  --bs-dropdown-link-active-bg: var(--accent-soft);
+  --bs-dropdown-link-hover-bg: var(--accent-soft);
+  --bs-dropdown-link-active-color: var(--text-primary);
 }
 
-.dropdown-item:hover {
-  background-color: transparent;
+.dropdown-title:hover {
   color: var(--text-primary);
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+/* CARRITO ICON */
+.iconCartContainer {
+  display: flex;
+  margin-top: 25px;
 }
 
 .bi-cart {
@@ -66,5 +84,64 @@ a {
 
 .carritoCantidad {
   color: var(--text-secondary);
+  margin-left: 10px;
+  font-weight: 800;
+}
 
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+  .imgLogo {
+    width: 170px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .imgLogo {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .bi-cart {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    height: 90px;
+  }
+
+  .imgLogo {
+    height: 90px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+
+  .bi-cart {
+    font-size: 20px;
+  }
+
+  .carritoCantidad {
+    font-size: 14px;
+  }
 }

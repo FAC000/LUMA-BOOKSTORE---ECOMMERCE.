@@ -1,50 +1,74 @@
+import { useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import { IconCart } from './IconCart';
 
-
 export function NavigationBar() {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => setDropdownOpen(prev => !prev);
+  const closeDropdown = () => setDropdownOpen(false);
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container className="d-flex align-items-center position-relative">
 
-        <Navbar.Brand href="/">
-
-          <img className='imgLogo' src="../img/Name.png" alt="" />
+        <Navbar.Brand as={Link} to="/" className="me-3 d-flex">
+          <img className='imgLogo' src="../img/Name.png" alt="Logo" />
+          
+          <IconCart />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-3" />
+
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link to={'/productos'}>
-              <Nav.Link href="#home">Productos</Nav.Link>
-            </Link>
-            <NavDropdown title="Generos" id="basic-nav-dropdown">
-              <Link to={'/categoria/fantasia'}>
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              </Link>
-              <Link to={'/categoria/cienciaficcion'}>
-                <NavDropdown.Item href="#action/3.2">
-                  Ciencia Ficcion
-                </NavDropdown.Item>
-              </Link>
 
-              <Link to={'/categoria/historica'}>
-                <NavDropdown.Item href="#action/3.3">Historia</NavDropdown.Item>
-              </Link>
+          <div className="w-100 d-flex justify-content-center ">
+            <Nav className="d-flex align-items-center nav-centered ">
 
-              <Link to={'/categoria/misterio'}>
-                <NavDropdown.Item href="#action/3.4">Misterio</NavDropdown.Item>
-              </Link>
-            </NavDropdown>
+              <Nav.Link 
+                as={Link} 
+                to="/productos" 
+                onClick={closeDropdown} 
+                className="nav-center-link"
+              >
+                Productos
+              </Nav.Link>
 
-          </Nav>
+              <div className="custom-dropdown">
+                <button 
+                  className="dropdown-title nav-center-link" 
+                  onClick={toggleDropdown}
+                >
+                  Géneros
+                  <i className="bi bi-caret-down-fill"></i>
+                </button>
+
+                {dropdownOpen && (
+                  <div className="dropdown-menu show">
+                    <Link className="dropdown-item" to="/categoria/fantasia" onClick={closeDropdown}>
+                      Fantasia
+                    </Link>
+                    <Link className="dropdown-item" to="/categoria/cienciaficcion" onClick={closeDropdown}>
+                      Ciencia Ficción
+                    </Link>
+                    <Link className="dropdown-item" to="/categoria/historica" onClick={closeDropdown}>
+                      Historia
+                    </Link>
+                    <Link className="dropdown-item" to="/categoria/misterio" onClick={closeDropdown}>
+                      Misterio
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+            </Nav>
+          </div>
+
         </Navbar.Collapse>
-        <IconCart />
       </Container>
     </Navbar>
-  );
+  )
 }
-
